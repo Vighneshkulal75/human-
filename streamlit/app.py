@@ -133,7 +133,7 @@ elif selected == "📊 Power BI Dashboard":
 
     # Dashboard download
     try:
-        with open("powerbi.pbix", "rb") as f:
+        with open("streamlit/powerbi.pbix", "rb") as f:
             st.download_button("📥 Download Power BI File (.pbix)", f, file_name="powerbi.pbix")
     except FileNotFoundError:
         st.warning("Power BI file not found.")
