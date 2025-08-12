@@ -32,7 +32,7 @@ selected = option_menu(
 
 
 # Load dataset
-df = pd.read_csv("../data/cleaned/cleaned_missing_data.csv")
+df = pd.read_csv("data/cleaned/cleaned_missing_data.csv")
 
 # --- HOME ---
 if selected == "🏠 Home":
