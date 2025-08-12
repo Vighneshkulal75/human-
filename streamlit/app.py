@@ -1,5 +1,6 @@
+pip install streamlit-option-menu
 import streamlit as st
-from streamlit-option-menu import option-menu
+from streamlit_option_menu import option_menu
 import pandas as pd
 import base64
 import os
