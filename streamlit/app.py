@@ -126,10 +126,10 @@ elif selected == "🔍 Hypothesis Testing":
 # --- POWER BI DASHBOARD ---
 elif selected == "📊 Power BI Dashboard":
     st.title("Power BI Dashboard")
-    st.image("page1.png", use_container_width=True)
-    st.image("pag2.png", use_container_width=True)   # fixed typo here!
-    st.image("page3.png", use_container_width=True)
-    st.image("page4.png", use_container_width=True)
+    st.image("streamlit/page1.png", use_container_width=True)
+    st.image("streamlit/pag2.png", use_container_width=True)   # fixed typo here!
+    st.image("streamlit/page3.png", use_container_width=True)
+    st.image("streamlit/page4.png", use_container_width=True)
 
     # Dashboard download
     try:
