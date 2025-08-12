@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
+from streamlit-option-menu import option_menu
 import pandas as pd
 import base64
 import os
